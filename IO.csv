@@ -1,0 +1,26 @@
+index,signal,I/O (board perspective),src/dest,notes
+1,LIN,I,Audio in,
+2,RIN,I,Audio in,
+3,FMT,I,FPGA,ADC control signal
+4,MD1,I,FPGA,ADC control signal
+5,MD2,I,FPGA,ADC control signal
+6,DOUT,O,FPGA,Serial audio data
+7,ADC_BCK,I/O,FPGA,"bit clock. O if master mode, I if slave mode"
+8,SCKI,O,FPGA,"PLL system clock output, maybe not needed"
+9,ADC_LRCK,I/O,FPGA,"L/R select clock. O if master mode, I if slave mode"
+,,,,
+10,Lout,O,Audio out,
+11,Rout,O,Audio out,
+12,MUTEB,I,FPGA,DAC control signal
+13,DAC_LRCK,I,FPGA,L/R select clock
+14,DACIN,I,FPGA,Serial audio data
+,,,,
+15,CSEL,I,FPGA,PLL control signal
+16,FS1,I,FPGA,PLL control signal
+17,FS2,I,FPGA,PLL control signal
+18,SR,I,FPGA,PLL control signal
+,,,,
+,,,,
+,,,,
+15,5V,I,Power supply,need to assess if fpga board can provide enough current
+16,3.3V,I,Power supply,need to assess if fpga board can provide enough current

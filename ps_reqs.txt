@@ -1,0 +1,6 @@
+current draw
+PLL: 25m(3.3v)
+ADC: 10mA(3.3v) 11mA(5v)
+DAC: 8mA(3.3v)
+
+totals: 43m(3.3v), 11m(5v)
